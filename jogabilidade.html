@@ -1,84 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Last of Us - Jogabilidade</title>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+    <title>The Last of Us</title> <!-- Título que aparece na aba do navegador -->
     <style>
+        /* Estilos CSS para o layout e design do site */
         body {
+            background-image: url('https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2024/01/16/the-last-of-us-part-ii-remastered-hero-banner-desktop-02-en-16mar23-trtk63obr96d.jpg');
+            background-size: cover; /* Cobre toda a tela */
+            background-position: center; /* Centraliza a imagem de fundo */
+            background-repeat: no-repeat; /* Não repete a imagem de fundo */
+            color: #ffffff;
             font-family: Arial, sans-serif;
-            color: #fff;
             margin: 0;
-            padding: 0;
-            background-color: #333;
+            padding: 0; /* Remove o preenchimento do corpo */
+            height: 100vh; /* Define a altura do corpo como 100% da altura da tela */
         }
         header {
-            display: flex;
-            background-color: #222;
-            padding: 10px;
-            justify-content: center;
+            text-align: center; /* Centraliza o texto do cabeçalho */
+            padding: 80px; /* Aumenta o preenchimento no cabeçalho */
         }
-        header nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 10px;
+        h1 {
+            margin: 0; /* Remove a margem padrão do título */
+            font-size: 5em; /* Aumenta o tamanho da fonte do título principal */
         }
-        header nav a:hover {
-            background-color: #444;
-            border-radius: 5px;
+        .titulo-principal {
+            text-align: center; /* Centraliza o título principal */
+            font-size: 4em; /* Tamanho da fonte do título */
+            margin: 70px 0; /* Margem acima do título */
         }
-        .content {
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
+        h2 {
+            font-size: 3em; /* Aumenta o tamanho da fonte das seções */
+            margin-top: 40px; /* Margem acima dos títulos das seções */
         }
-        .background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            opacity: 0.3;
+        nav {
+            margin: 20px 0; /* Margem acima e abaixo da navegação */
+        }
+        nav a {
+            color: #ffffff; /* Cor dos links de navegação */
+            margin: 0 15px; /* Margem entre os links */
+            text-decoration: none; /* Remove o sublinhado dos links */
+            font-size: 2em; /* Aumenta o tamanho da fonte dos links de navegação */
+        }
+        section {
+            margin: 20px 0; /* Margem acima e abaixo das seções */
+        }
+        footer {
+            text-align: center; /* Centraliza o texto do rodapé */
+            margin-top: 20px; /* Margem acima do rodapé */
+            border-top: 1px solid #444; /* Borda superior do rodapé */
+            padding: 10px 0; /* Preenchimento no rodapé */
         }
     </style>
 </head>
 <body>
-
-    <!-- Imagem de Fundo -->
-    <img src="seu_fundo.jpg" alt="Background" class="background">
-
-    <!-- Menu Superior -->
     <header>
         <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#historia">História</a>
-            <a href="#jogabilidade">Jogabilidade</a>
-            <a href="#viloes">Vilões</a>
-            <a href="#personagens">Personagens</a>
+            <!-- Links de navegação para diferentes seções do site -->
+            <a href="https://eversonmayer2008.github.io/SOBRE.LINK/">SOBRE</a>
+            <a href="https://eversonmayer2008.github.io/HISTORIALINK/">HISTORIA</a>
+            <a href="#jogabilidade">JOGABILIDADE</a>
+            <a href="#contato">VILÕES</a>
+            <a href="#Personagens  principais">PERSONAGENS PRINCIPAIS</a>
         </nav>
     </header>
 
-    <!-- Conteúdo da Seção Jogabilidade -->
-    <div class="content" id="jogabilidade">
-        <h1>Jogabilidade</h1>
-        <p>
-            "The Last of Us" oferece uma experiência de jogabilidade imersiva, com foco em sobrevivência e exploração em um mundo pós-apocalíptico.
-            Os jogadores assumem o controle de Joel e, em algumas partes do jogo, de Ellie, enquanto eles enfrentam inimigos humanos e infectados
-            em ambientes desolados. A jogabilidade combina furtividade, combate estratégico e exploração, incentivando o uso cuidadoso de recursos
-            limitados, como munição e itens de cura.
-        </p>
-        <p>
-            O jogo também apresenta elementos de crafting, permitindo que os jogadores criem armas improvisadas e outros itens úteis para enfrentar
-            ameaças. A inteligência artificial avançada contribui para que os inimigos reajam de forma realista, tornando cada combate intenso e
-            único. O sistema de cobertura é intuitivo, permitindo que os jogadores se escondam, planejem e se movimentem sem serem detectados.
-        </p>
-        <p>
-            Além disso, "The Last of Us" envolve uma forte narrativa que se desenrola através da jogabilidade, proporcionando uma conexão emocional
-            com os personagens e suas motivações. Essa combinação de história envolvente e mecânicas de sobrevivência faz da jogabilidade uma
-            experiência única e desafiadora.
-        </p>
-    </div>
+    <h1 class="titulo-principal">THE LAST OF US</h1> <!-- Título principal centralizado -->
 
 </body>
 </html>
